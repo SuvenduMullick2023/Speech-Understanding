@@ -52,5 +52,4 @@ through adaptive obfuscation. Fairness training reduces demographic
 ## Installation
 ```bash
 pip install -r requirements.txt
-performance gaps. Documentation debt in LibriSpeech highlights the 
-need for better dataset documentation practices.
+
