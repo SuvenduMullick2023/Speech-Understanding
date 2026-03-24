@@ -29,10 +29,10 @@
 - **Spectral Difference**: Visualized in audio_comparison.pdf
 
 ## 6. Ethical Considerations
-- ✅ Privacy: Biometric traits obfuscated
-- ✅ Fairness: Demographic gaps minimized
-- ✅ Transparency: Trade-offs documented
-- ⚠️ Limitation: Synthetic demographics (LibriSpeech lacks metadata)
+-  Privacy: Biometric traits obfuscated
+-  Fairness: Demographic gaps minimized
+-  Transparency: Trade-offs documented
+-  Limitation: Synthetic demographics (LibriSpeech lacks metadata)
 
 ## 7. Recommendations
 1. Use Common Voice for real demographic metadata
