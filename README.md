@@ -43,5 +43,14 @@
 ## 8. Conclusion
 The enhanced pipeline successfully balances privacy and utility 
 through adaptive obfuscation. Fairness training reduces demographic 
+
+## Dataset
+- **Name**: LibriSpeech ASR (clean subset)
+- **Samples**: 500 audio files
+- **License**: CC BY 4.0
+
+## Installation
+```bash
+pip install -r requirements.txt
 performance gaps. Documentation debt in LibriSpeech highlights the 
 need for better dataset documentation practices.
