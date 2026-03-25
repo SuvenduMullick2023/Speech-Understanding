@@ -1,3 +1,28 @@
+
+
+q1_cepstral_pipeline/
+├── mfcc_manual.py              # Handcrafted MFCC/cepstrum engine
+├── leakage_snr.py              # Spectral leakage & SNR analysis
+├── voiced_unvoiced.py          # Boundary detection algorithm
+├── phonetic_mapping.py         # Wav2Vec2 alignment + RMSE
+├── q1_report.pdf               # This report (4 pages max)
+├── requirements.txt            # Python dependencies
+├── data/
+│   ├── manifest.txt            # Audio file listing
+│   └── voice_speech_Q1_1.m4a   # Test audio file (29.98s)
+└── outputs/
+    ├── mfcc_plots.pdf          #  MFCC extraction visualization (real speech)
+    ├── leakage_comparison.pdf  # Window function comparison
+    ├── boundary_detection.pdf  # Voiced/unvoiced detection
+    ├── alignment_results.pdf   # Phone alignment visualization
+    ├── alignment_results.json  # RMSE: 27.22ms (short segment)
+    ├── phone_report.md         #  Phone-level details: RMSE 57.21ms (full audio)
+    └── leakage_results.json    # Window analysis metrics
+
+
+
+
+
 # Speech-Understanding
 
 # Ethical Auditing & Privacy-Preserving AI Report (Enhanced)
