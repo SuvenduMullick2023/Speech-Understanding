@@ -1,6 +1,6 @@
 
 
-# Q1 Cepstral Pipeline: Speech Analysis & Alignment 🎙️
+# Q1 Cepstral Pipeline: Speech Analysis & Alignment 
 
 A comprehensive signal processing pipeline for MFCC extraction, spectral leakage analysis, voiced/unvoiced boundary detection, and phonetic alignment using Wav2Vec2.
 
@@ -27,7 +27,7 @@ q1_cepstral_pipeline/
     └── leakage_results.json   # Quantitative window analysis metrics
 
 
-# Q3 Ethical Audio: Privacy & Fairness Pipeline 🛡️🔊
+# Q3 Ethical Audio: Privacy & Fairness Pipeline
 
 This repository contains a framework for ethical speech processing, focusing on adaptive privacy obfuscation, fairness auditing across demographic cohorts, and privacy-utility tradeoff analysis.
 
@@ -52,7 +52,6 @@ q3_ethical_audio/
 │   ├── obfuscated_0.wav    # Audio after Adaptive Privacy Obfuscation
 │   └── ...
 └── librispeech_data/       # Dataset directory (LibriSpeech subset)
-
 
 
 # Speech-Understanding
