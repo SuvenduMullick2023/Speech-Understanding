@@ -4,7 +4,7 @@
 
 A comprehensive signal processing pipeline for MFCC extraction, spectral leakage analysis, voiced/unvoiced boundary detection, and phonetic alignment using Wav2Vec2.
 
-## 📁 File Structure
+# File Structure
 
 ```text
 q1_cepstral_pipeline/
@@ -31,7 +31,7 @@ q1_cepstral_pipeline/
 
 This repository contains a framework for ethical speech processing, focusing on adaptive privacy obfuscation, fairness auditing across demographic cohorts, and privacy-utility tradeoff analysis.
 
-## 📁 File Structure
+##  File Structure
 
 ```text
 q3_ethical_audio/
