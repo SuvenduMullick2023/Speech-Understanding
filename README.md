@@ -1,23 +1,30 @@
 
 
+# Q1 Cepstral Pipeline: Speech Analysis & Alignment 🎙️
+
+A comprehensive signal processing pipeline for MFCC extraction, spectral leakage analysis, voiced/unvoiced boundary detection, and phonetic alignment using Wav2Vec2.
+
+## 📁 Project Structure
+
+```text
 q1_cepstral_pipeline/
-├── mfcc_manual.py              # Handcrafted MFCC/cepstrum engine
-├── leakage_snr.py              # Spectral leakage & SNR analysis
-├── voiced_unvoiced.py          # Boundary detection algorithm
-├── phonetic_mapping.py         # Wav2Vec2 alignment + RMSE
-├── q1_report.pdf               # This report (4 pages max)
-├── requirements.txt            # Python dependencies
+├── mfcc_manual.py          # Handcrafted MFCC and cepstrum extraction engine
+├── leakage_snr.py          # Analysis of spectral leakage and SNR metrics
+├── voiced_unvoiced.py      # Algorithm for speech boundary detection
+├── phonetic_mapping.py     # Wav2Vec2 alignment and RMSE calculation
+├── q1_report.pdf           # Technical project report (Max 4 pages)
+├── requirements.txt        # Python dependencies (Torch, Librosa, etc.)
 ├── data/
-│   ├── manifest.txt            # Audio file listing
-│   └── voice_speech_Q1_1.m4a   # Test audio file (29.98s)
+│   ├── manifest.txt        # Audio file listing and metadata
+│   └── voice_speech_Q1_1.m4a # Primary test audio file (29.98s)
 └── outputs/
-    ├── mfcc_plots.pdf          #  MFCC extraction visualization (real speech)
-    ├── leakage_comparison.pdf  # Window function comparison
-    ├── boundary_detection.pdf  # Voiced/unvoiced detection
-    ├── alignment_results.pdf   # Phone alignment visualization
-    ├── alignment_results.json  # RMSE: 27.22ms (short segment)
-    ├── phone_report.md         #  Phone-level details: RMSE 57.21ms (full audio)
-    └── leakage_results.json    # Window analysis metrics
+    ├── mfcc_plots.pdf      # Visualizations of MFCC extraction
+    ├── leakage_comparison.pdf # Window function performance comparison
+    ├── boundary_detection.pdf # Voiced vs. Unvoiced detection results
+    ├── alignment_results.pdf  # Phonetic alignment visualization
+    ├── alignment_results.json # Segment RMSE: 27.22ms
+    ├── phone_report.md     # Full audio detail: Total RMSE 57.21ms
+    └── leakage_results.json   # Quantitative window analysis metrics
 
 
 
