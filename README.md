@@ -26,6 +26,7 @@ q1_cepstral_pipeline/
     ├── phone_report.md     # Full audio detail: Total RMSE 57.21ms
     └── leakage_results.json   # Quantitative window analysis metrics
 
+Assignment1_1_speech_understanding_v1.ipynb file is the main file for generating for all result
 
 # Q3 Ethical Audio: Privacy & Fairness Pipeline
 
@@ -52,6 +53,13 @@ q3_ethical_audio/
 │   ├── obfuscated_0.wav    # Audio after Adaptive Privacy Obfuscation
 │   └── ...
 └── librispeech_data/       # Dataset directory (LibriSpeech subset)
+
+Assignment1_3_speech_understanding.ipnyb  file is the main file for generating for all result
+
+
+
+
+
 
 
 # Speech-Understanding
@@ -103,9 +111,7 @@ through adaptive obfuscation. Fairness training reduces demographic
 ## Dataset
 - **Name**: LibriSpeech ASR (clean subset)
 - **Samples**: 500 audio files
-- **License**: CC BY 4.0
+-
 
-## Installation
-```bash
-pip install -r requirements.txt
+
 
