@@ -4,7 +4,7 @@
 
 A comprehensive signal processing pipeline for MFCC extraction, spectral leakage analysis, voiced/unvoiced boundary detection, and phonetic alignment using Wav2Vec2.
 
-## 📁 Project Structure
+## 📁 File Structure
 
 ```text
 q1_cepstral_pipeline/
@@ -27,6 +27,31 @@ q1_cepstral_pipeline/
     └── leakage_results.json   # Quantitative window analysis metrics
 
 
+# Q3 Ethical Audio: Privacy & Fairness Pipeline 🛡️🔊
+
+This repository contains a framework for ethical speech processing, focusing on adaptive privacy obfuscation, fairness auditing across demographic cohorts, and privacy-utility tradeoff analysis.
+
+## 📁 File Structure
+
+```text
+q3_ethical_audio/
+├── audit.py                # Pipeline for auditing model bias and fairness
+├── privacymodule.py        # Core logic (Updated with AdaptivePrivacyObfuscator)
+├── train_fair.py           # Training script with fairness-aware constraints
+├── pp_demo.py              # Privacy-Preserving (PP) demonstration script
+├── q3_report.md            # Summary of ethical findings and methodology
+├── audit_plots.pdf         # Visualizations of bias and fairness metrics
+├── training_curves.pdf     # Loss and accuracy curves (Privacy vs. Utility)
+├── evaluation_scripts/     # Advanced metric suites
+│   ├── metrics.py          # Standard performance metrics (WER, Accuracy)
+│   ├── fairness_metrics.py # NEW: compute_fairness_metrics (EO, DP)
+│   ├── privacy_utility_analysis.py # NEW: analyze_privacy_utility_tradeoff
+│   └── visualize_audio.py  # NEW: visualize_audio_comparison (Spectrograms)
+├── examples/               # Audio samples for verification
+│   ├── original_0.wav      # Raw audio input
+│   ├── obfuscated_0.wav    # Audio after Adaptive Privacy Obfuscation
+│   └── ...
+└── librispeech_data/       # Dataset directory (LibriSpeech subset)
 
 
 
