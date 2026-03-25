@@ -54,7 +54,7 @@ q3_ethical_audio/
 │   └── ...
 └── librispeech_data/       # Dataset directory (LibriSpeech subset)
 
-Assignment1_3_speech_understanding.ipnyb  file is the main file for generating for all result
+Assignment1_3_speech_understanding.ipynb  file is the main file for generating for all result
 
 
 
