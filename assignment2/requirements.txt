@@ -1,0 +1,27 @@
+
+
+!pip install -q -U pip setuptools wheel
+!apt-get install -y -q espeak-ng libsndfile1
+!pip install -q torch torchaudio transformers
+!pip install -q deepfilternet          # Task 1.3 – DeepFilterNet denoiser
+!pip install -q openai-whisper         # fallback if HF Whisper has issues
+!pip install -q librosa numpy scipy soundfile
+!pip install -q nltk g2p-en
+!pip install -q epitran                # Task 2.1 – proper Hindi G2P -> IPA
+!pip install -q dtw-python             # Task 3.2 – DTW prosody warping
+!pip install -q jiwer                  # WER evaluation
+!pip install -q coqui-tts              # TTS (YourTTS / VITS)
+!pip install -q matplotlib tqdm
+
+# ============================================================
+# CELL 3: Install indic-nlp-library and clone resources
+# ============================================================
+!pip install -q indic-nlp-library
+!git clone --quiet https://github.com/anoopkunchukuttan/indic_nlp_resources.git
+
+from indicnlp import common
+common.set_resources_path('/content/indic_nlp_resources')
+
+import nltk
+nltk.download('punkt', quiet=True)
+nltk.download('averaged_perceptron_tagger', quiet=True)
