@@ -340,7 +340,8 @@ ls data/original_segment.wav data/student_voice_ref.wav \
    data/syllabus.txt data/reference_transcript.txt
 
 # 2. Run the full pipeline
-python pipeline.py
+# python pipeline.py
+sbatch run_pipeline.sh
 ```
 
 ### Expected output log
@@ -421,7 +422,14 @@ the F1 score reflects self-consistency not real accuracy. Train on labelled data
 and replace silver labels with ground-truth annotations for a meaningful F1.
 
 ---
-
+1. Boll, S.F. (1979). *Suppression of acoustic noise in speech using spectral subtraction.* IEEE Transactions on Acoustics, Speech, and Signal Processing, 27(2), 113–120.
+2. Radford, A. et al. (2022). *Robust Speech Recognition via Large-Scale Weak Supervision.* OpenAI. (Whisper)
+3. Kim, J. et al. (2021). *Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech.* ICML. (VITS)
+4. Pratap, V. et al. (2023). *Scaling Speech Technology to 1000+ Languages.* Meta AI. (MMS-TTS)
+5. Desplanques, B. et al. (2020). *ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification.* Interspeech.
+6. Goodfellow, I. et al. (2015). *Explaining and Harnessing Adversarial Examples.* ICLR. (FGSM)
+7. Sakoe, H. & Chiba, S. (1978). *Dynamic programming algorithm optimization for spoken word recognition.* IEEE Transactions on ASSP. (DTW)
+8. Wu, Z. et al. (2015). *ASVspoof: the Automatic Speaker Verification Spoofing and Countermeasures Challenge.* IEEE/ACM TASLP. (LFCC / EER)
 
 
 ---
