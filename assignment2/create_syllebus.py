@@ -1,0 +1,32 @@
+# Run this as a standalone script to regenerate syllabus.txt cleanly
+content = """
+Speech Understanding Course Syllabus
+
+Topics: Digital Signal Processing, Fourier Transform, Short Time Fourier Transform,
+Mel Frequency Cepstral Coefficients, MFCC, spectrogram, mel filterbank,
+Hidden Markov Model, HMM, Gaussian Mixture Model, GMM,
+acoustic model, language model, pronunciation model,
+beam search, Viterbi algorithm, dynamic time warping, DTW,
+stochastic, cepstrum, cepstral, linear predictive coding, LPC,
+formant, fundamental frequency, pitch, prosody, intonation,
+phoneme, grapheme, allophone, phonology, articulatory,
+neural network, deep learning, recurrent neural network, RNN,
+LSTM, attention mechanism, transformer, encoder, decoder,
+connectionist temporal classification, CTC, sequence to sequence,
+word error rate, WER, perplexity, n-gram, bigram, trigram,
+voice activity detection, VAD, speaker diarization, speaker recognition,
+noise robustness, denoising, spectral subtraction, Wiener filter,
+code switching, multilingual, cross lingual, low resource,
+automatic speech recognition, ASR, text to speech, TTS,
+speech synthesis, voice cloning, speaker embedding, x-vector, d-vector,
+zero shot, few shot, transfer learning, fine tuning,
+sampling rate, quantization, waveform, amplitude, frequency, phase,
+window function, Hamming window, Hanning window, overlap add,
+inverse Fourier transform, power spectrum, energy, zero crossing rate
+"""
+
+import os
+path = "/scratch/data/m22aie218/Speech-Understanding/assignment2/data/syllabus.txt"
+with open(path, 'w', encoding='utf-8') as f:
+    f.write(content)
+print(f"Written {len(content.split())} tokens to {path}")
