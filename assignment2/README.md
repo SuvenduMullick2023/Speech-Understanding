@@ -101,10 +101,10 @@ assignment2/
 ├── pipeline.py                # Main orchestrator — runs full pipeline
 │
 ├── data/
-│   ├── original_segment.wav   # Source lecture clip (10 min) ← YOU PROVIDE
-│   ├── student_voice_ref.wav  # Your 60s voice recording    ← YOU PROVIDE
-│   ├── syllabus.txt           # Course syllabus plain text  ← YOU PROVIDE
-│   └── reference_transcript.txt  # Ground truth for WER    ← YOU PROVIDE
+│   ├── original_segment.wav   # Source lecture clip (10 min) ←  PROVIDE
+│   ├── student_voice_ref.wav  # Your 60s voice recording    ←  PROVIDE
+│   ├── syllabus.txt           # Course syllabus plain text  ←  PROVIDE
+│   └── reference_transcript.txt  # Ground truth for WER    ←  PROVIDE
 │
 ├── output/
 │   ├── denoised_segment.wav          # After Task 1.3
@@ -154,7 +154,7 @@ pip install indic-nlp-library
 
 ## Data Preparation
 
-You must provide the following four files before running the pipeline:
+provide the following four files before running the pipeline:
 
 | File | Description | How to create |
 |---|---|---|
@@ -422,20 +422,11 @@ and replace silver labels with ground-truth annotations for a meaningful F1.
 
 ---
 
-## References
 
-1. Boll, S.F. (1979). *Suppression of acoustic noise in speech using spectral subtraction.* IEEE Transactions on Acoustics, Speech, and Signal Processing, 27(2), 113–120.
-2. Radford, A. et al. (2022). *Robust Speech Recognition via Large-Scale Weak Supervision.* OpenAI. (Whisper)
-3. Kim, J. et al. (2021). *Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech.* ICML. (VITS)
-4. Pratap, V. et al. (2023). *Scaling Speech Technology to 1000+ Languages.* Meta AI. (MMS-TTS)
-5. Desplanques, B. et al. (2020). *ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification.* Interspeech.
-6. Goodfellow, I. et al. (2015). *Explaining and Harnessing Adversarial Examples.* ICLR. (FGSM)
-7. Sakoe, H. & Chiba, S. (1978). *Dynamic programming algorithm optimization for spoken word recognition.* IEEE Transactions on ASSP. (DTW)
-8. Wu, Z. et al. (2015). *ASVspoof: the Automatic Speaker Verification Spoofing and Countermeasures Challenge.* IEEE/ACM TASLP. (LFCC / EER)
 
 ---
 
-> **GitHub repository:** `https://github.com/<your-username>/speech-understanding-a2`
-> Replace with your actual repository link before submission.
+> **GitHub repository:** `https://github.com/SuvenduMullick2023/Speech-Understanding/tree/main/assignment2`
+
 
 > **Submission:** Zip the repository as `<RollNo>_PA2.zip` and submit on Google Classroom.
