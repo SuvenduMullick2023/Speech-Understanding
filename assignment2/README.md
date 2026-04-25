@@ -437,4 +437,3 @@ and replace silver labels with ground-truth annotations for a meaningful F1.
 > **GitHub repository:** `https://github.com/SuvenduMullick2023/Speech-Understanding/tree/main/assignment2`
 
 
-> **Submission:** Zip the repository as `<RollNo>_PA2.zip` and submit on Google Classroom.
